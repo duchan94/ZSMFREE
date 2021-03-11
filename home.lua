@@ -859,7 +859,6 @@ floatLY={
 activity.setTheme(android.R.style.Theme_DeviceDefault_Light)
 --activity.setTheme(R.AndLua14)
 activity.setContentView(loadlayout(homeLY))
-activity.overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
 
 tickexit=0
 function onKeyDown(code,event)
