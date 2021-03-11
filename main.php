@@ -328,13 +328,13 @@ activity.getActionBar().setSubtitle("LOGIN")
                   save.putString("human", "1")
                   save.commit()
                   activity.newActivity("home")
-                  activity.finish()
+                 
                  else
                   EXPIREDLOGIN="FREE"
                   save.putString("human", "1")
                   save.commit()
                   activity.newActivity("home")
-                  activity.finish()
+                  
                 end
                 local pref = activity.getSharedPreferences("EXPIREDLOGIN", Context.MODE_PRIVATE)
                 local save = pref.edit()
