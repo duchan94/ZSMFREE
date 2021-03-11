@@ -13,7 +13,7 @@ function LoginLY()
   layout={
     LinearLayout;
     layout_height="fill";
-    backgroundColor="0xFF131416";
+    background="https://raw.githubusercontent.com/duchan94/ZSMFREE/main/bg.jpg";
     layout_width="fill";
     {
       LinearLayout;
